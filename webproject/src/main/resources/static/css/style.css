@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+	
+	background:#e2e2e2!important;
+}
+
+.bg-primary{
+	background:#009688!important;
+}
+
+.banner{
+	
+	width:100%;
+	height:93vh;
+	background:Linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/img1.jpg);
+	background-size:cover;
+	color:white;
+}
+
+.my-card{
+	padding: 50px;
+	background:#FFFFFF;
+}
+
+
+CSS
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
+
+@media only screen and(max-width:600px){
+	.sidebar{
+		display:none;
+		width:80% !important;
+		background:white;
+		height:100vh;
+		position:fixed;
+		padding-top:20px;
+	}
+	
+	.content{
+		margin-left:0%!important;
+	}
+}
+
+.sidebar{
+	width:18%;
+	height:100vh;
+	background:white;
+	position:fixed;
+	padding-top:45px;
+	z-index: 999999999999999;
+}
+
+.sidebar a{
+	display:block;
+	width:100%;
+	padding:10px 40px;
+	text-decoration:none;
+	color:gray;
+}
+
+.sidebar a:hover{
+	background:#e2e2e2;
+}
+
+.sidebar .divider{
+	
+	height:.5px;
+	width:100%;
+	background:#e2e2e2;
+	margin-top:10px;
+}
+
+.content{
+	margin-left:20%;
+}
+
+.sidebar .crossBtn{
+	position:absolute;
+	top:0;
+	right:35px;
+	font-size:36px;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
